@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB4A660D7C56B06D9FBBA15 /* libPods-CherryNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDDCF9D23732565F433802C /* libPods-CherryNetwork.a */; };
+		6B0021431CED6155002907CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0021421CED6155002907CC /* main.m */; };
+		6B0021461CED6155002907CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0021451CED6155002907CC /* AppDelegate.m */; };
+		6B0021491CED6155002907CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0021481CED6155002907CC /* ViewController.m */; };
+		6B00214C1CED6155002907CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B00214A1CED6155002907CC /* Main.storyboard */; };
+		6B00214F1CED6155002907CC /* CherryNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B00214D1CED6155002907CC /* CherryNetwork.xcdatamodeld */; };
+		6B0021511CED6155002907CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0021501CED6155002907CC /* Assets.xcassets */; };
+		6B0021541CED6155002907CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0021521CED6155002907CC /* LaunchScreen.storyboard */; };
+		6B00215F1CED6155002907CC /* CherryNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00215E1CED6155002907CC /* CherryNetworkTests.m */; };
+		6B00216A1CED6155002907CC /* CherryNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0021691CED6155002907CC /* CherryNetworkUITests.m */; };
+		6B0021911CED69CC002907CC /* ZooBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0021881CED69CC002907CC /* ZooBaseRequest.m */; };
+		6B0021921CED69CC002907CC /* ZooChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00218A1CED69CC002907CC /* ZooChainRequest.m */; };
+		6B0021931CED69CC002907CC /* ZooNetWorkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00218C1CED69CC002907CC /* ZooNetWorkAgent.m */; };
+		6B0021941CED69CC002907CC /* ZooNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00218E1CED69CC002907CC /* ZooNetworkPrivate.m */; };
+		6B0021951CED69CC002907CC /* ZooRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0021901CED69CC002907CC /* ZooRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B00215B1CED6155002907CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B0021361CED6154002907CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B00213D1CED6154002907CC;
+			remoteInfo = CherryNetwork;
+		};
+		6B0021661CED6155002907CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B0021361CED6154002907CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B00213D1CED6154002907CC;
+			remoteInfo = CherryNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082C78B0E077EB2BC9532CA8 /* Pods-CherryNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-CherryNetwork/Pods-CherryNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		28288F3BC81F7A71B0DE6F1B /* Pods-CherryNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CherryNetwork/Pods-CherryNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		6B00213E1CED6154002907CC /* CherryNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CherryNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0021421CED6155002907CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B0021441CED6155002907CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B0021451CED6155002907CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B0021471CED6155002907CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B0021481CED6155002907CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B00214B1CED6155002907CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B00214E1CED6155002907CC /* CherryNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CherryNetwork.xcdatamodel; sourceTree = "<group>"; };
+		6B0021501CED6155002907CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B0021531CED6155002907CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B0021551CED6155002907CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B00215A1CED6155002907CC /* CherryNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B00215E1CED6155002907CC /* CherryNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryNetworkTests.m; sourceTree = "<group>"; };
+		6B0021601CED6155002907CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0021651CED6155002907CC /* CherryNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0021691CED6155002907CC /* CherryNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryNetworkUITests.m; sourceTree = "<group>"; };
+		6B00216B1CED6155002907CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0021871CED69CC002907CC /* ZooBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZooBaseRequest.h; path = CherryNetwork/Package/ZooBaseRequest.h; sourceTree = "<group>"; };
+		6B0021881CED69CC002907CC /* ZooBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZooBaseRequest.m; path = CherryNetwork/Package/ZooBaseRequest.m; sourceTree = "<group>"; };
+		6B0021891CED69CC002907CC /* ZooChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZooChainRequest.h; path = CherryNetwork/Package/ZooChainRequest.h; sourceTree = "<group>"; };
+		6B00218A1CED69CC002907CC /* ZooChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZooChainRequest.m; path = CherryNetwork/Package/ZooChainRequest.m; sourceTree = "<group>"; };
+		6B00218B1CED69CC002907CC /* ZooNetWorkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZooNetWorkAgent.h; path = CherryNetwork/Package/ZooNetWorkAgent.h; sourceTree = "<group>"; };
+		6B00218C1CED69CC002907CC /* ZooNetWorkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZooNetWorkAgent.m; path = CherryNetwork/Package/ZooNetWorkAgent.m; sourceTree = "<group>"; };
+		6B00218D1CED69CC002907CC /* ZooNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZooNetworkPrivate.h; path = CherryNetwork/Package/ZooNetworkPrivate.h; sourceTree = "<group>"; };
+		6B00218E1CED69CC002907CC /* ZooNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZooNetworkPrivate.m; path = CherryNetwork/Package/ZooNetworkPrivate.m; sourceTree = "<group>"; };
+		6B00218F1CED69CC002907CC /* ZooRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZooRequest.h; path = CherryNetwork/Package/ZooRequest.h; sourceTree = "<group>"; };
+		6B0021901CED69CC002907CC /* ZooRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZooRequest.m; path = CherryNetwork/Package/ZooRequest.m; sourceTree = "<group>"; };
+		ACDDCF9D23732565F433802C /* libPods-CherryNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CherryNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B00213B1CED6154002907CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB4A660D7C56B06D9FBBA15 /* libPods-CherryNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0021571CED6155002907CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0021621CED6155002907CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10434184B661C8F15B181AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDCF9D23732565F433802C /* libPods-CherryNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493005840C3A86DFE5E0AD13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28288F3BC81F7A71B0DE6F1B /* Pods-CherryNetwork.debug.xcconfig */,
+				082C78B0E077EB2BC9532CA8 /* Pods-CherryNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B0021351CED6154002907CC = {
+			isa = PBXGroup;
+			children = (
+				6B0021771CED630E002907CC /* Package */,
+				6B0021401CED6155002907CC /* CherryNetwork */,
+				6B00215D1CED6155002907CC /* CherryNetworkTests */,
+				6B0021681CED6155002907CC /* CherryNetworkUITests */,
+				6B00213F1CED6154002907CC /* Products */,
+				493005840C3A86DFE5E0AD13 /* Pods */,
+				10434184B661C8F15B181AFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B00213F1CED6154002907CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B00213E1CED6154002907CC /* CherryNetwork.app */,
+				6B00215A1CED6155002907CC /* CherryNetworkTests.xctest */,
+				6B0021651CED6155002907CC /* CherryNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0021401CED6155002907CC /* CherryNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				6B0021441CED6155002907CC /* AppDelegate.h */,
+				6B0021451CED6155002907CC /* AppDelegate.m */,
+				6B0021471CED6155002907CC /* ViewController.h */,
+				6B0021481CED6155002907CC /* ViewController.m */,
+				6B00214A1CED6155002907CC /* Main.storyboard */,
+				6B0021501CED6155002907CC /* Assets.xcassets */,
+				6B0021521CED6155002907CC /* LaunchScreen.storyboard */,
+				6B0021551CED6155002907CC /* Info.plist */,
+				6B00214D1CED6155002907CC /* CherryNetwork.xcdatamodeld */,
+				6B0021411CED6155002907CC /* Supporting Files */,
+			);
+			path = CherryNetwork;
+			sourceTree = "<group>";
+		};
+		6B0021411CED6155002907CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0021421CED6155002907CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B00215D1CED6155002907CC /* CherryNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B00215E1CED6155002907CC /* CherryNetworkTests.m */,
+				6B0021601CED6155002907CC /* Info.plist */,
+			);
+			path = CherryNetworkTests;
+			sourceTree = "<group>";
+		};
+		6B0021681CED6155002907CC /* CherryNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B0021691CED6155002907CC /* CherryNetworkUITests.m */,
+				6B00216B1CED6155002907CC /* Info.plist */,
+			);
+			path = CherryNetworkUITests;
+			sourceTree = "<group>";
+		};
+		6B0021771CED630E002907CC /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				6B0021871CED69CC002907CC /* ZooBaseRequest.h */,
+				6B0021881CED69CC002907CC /* ZooBaseRequest.m */,
+				6B0021891CED69CC002907CC /* ZooChainRequest.h */,
+				6B00218A1CED69CC002907CC /* ZooChainRequest.m */,
+				6B00218B1CED69CC002907CC /* ZooNetWorkAgent.h */,
+				6B00218C1CED69CC002907CC /* ZooNetWorkAgent.m */,
+				6B00218D1CED69CC002907CC /* ZooNetworkPrivate.h */,
+				6B00218E1CED69CC002907CC /* ZooNetworkPrivate.m */,
+				6B00218F1CED69CC002907CC /* ZooRequest.h */,
+				6B0021901CED69CC002907CC /* ZooRequest.m */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B00213D1CED6154002907CC /* CherryNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B00216E1CED6155002907CC /* Build configuration list for PBXNativeTarget "CherryNetwork" */;
+			buildPhases = (
+				8738BB5417DFECE0806BBC2C /* 📦 Check Pods Manifest.lock */,
+				6B00213A1CED6154002907CC /* Sources */,
+				6B00213B1CED6154002907CC /* Frameworks */,
+				6B00213C1CED6154002907CC /* Resources */,
+				016E5D35AC535F1F32D95E1B /* 📦 Embed Pods Frameworks */,
+				DC83BD8F1A33EB895A4148F6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CherryNetwork;
+			productName = CherryNetwork;
+			productReference = 6B00213E1CED6154002907CC /* CherryNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B0021591CED6155002907CC /* CherryNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0021711CED6155002907CC /* Build configuration list for PBXNativeTarget "CherryNetworkTests" */;
+			buildPhases = (
+				6B0021561CED6155002907CC /* Sources */,
+				6B0021571CED6155002907CC /* Frameworks */,
+				6B0021581CED6155002907CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B00215C1CED6155002907CC /* PBXTargetDependency */,
+			);
+			name = CherryNetworkTests;
+			productName = CherryNetworkTests;
+			productReference = 6B00215A1CED6155002907CC /* CherryNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B0021641CED6155002907CC /* CherryNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0021741CED6155002907CC /* Build configuration list for PBXNativeTarget "CherryNetworkUITests" */;
+			buildPhases = (
+				6B0021611CED6155002907CC /* Sources */,
+				6B0021621CED6155002907CC /* Frameworks */,
+				6B0021631CED6155002907CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B0021671CED6155002907CC /* PBXTargetDependency */,
+			);
+			name = CherryNetworkUITests;
+			productName = CherryNetworkUITests;
+			productReference = 6B0021651CED6155002907CC /* CherryNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0021361CED6154002907CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fanxin;
+				TargetAttributes = {
+					6B00213D1CED6154002907CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7G5W7EQ7P3;
+					};
+					6B0021591CED6155002907CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7G5W7EQ7P3;
+						TestTargetID = 6B00213D1CED6154002907CC;
+					};
+					6B0021641CED6155002907CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7G5W7EQ7P3;
+						TestTargetID = 6B00213D1CED6154002907CC;
+					};
+				};
+			};
+			buildConfigurationList = 6B0021391CED6154002907CC /* Build configuration list for PBXProject "CherryNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0021351CED6154002907CC;
+			productRefGroup = 6B00213F1CED6154002907CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B00213D1CED6154002907CC /* CherryNetwork */,
+				6B0021591CED6155002907CC /* CherryNetworkTests */,
+				6B0021641CED6155002907CC /* CherryNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B00213C1CED6154002907CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0021541CED6155002907CC /* LaunchScreen.storyboard in Resources */,
+				6B0021511CED6155002907CC /* Assets.xcassets in Resources */,
+				6B00214C1CED6155002907CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0021581CED6155002907CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0021631CED6155002907CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016E5D35AC535F1F32D95E1B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CherryNetwork/Pods-CherryNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8738BB5417DFECE0806BBC2C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC83BD8F1A33EB895A4148F6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CherryNetwork/Pods-CherryNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B00213A1CED6154002907CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0021921CED69CC002907CC /* ZooChainRequest.m in Sources */,
+				6B0021491CED6155002907CC /* ViewController.m in Sources */,
+				6B00214F1CED6155002907CC /* CherryNetwork.xcdatamodeld in Sources */,
+				6B0021951CED69CC002907CC /* ZooRequest.m in Sources */,
+				6B0021941CED69CC002907CC /* ZooNetworkPrivate.m in Sources */,
+				6B0021461CED6155002907CC /* AppDelegate.m in Sources */,
+				6B0021931CED69CC002907CC /* ZooNetWorkAgent.m in Sources */,
+				6B0021911CED69CC002907CC /* ZooBaseRequest.m in Sources */,
+				6B0021431CED6155002907CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0021561CED6155002907CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00215F1CED6155002907CC /* CherryNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0021611CED6155002907CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00216A1CED6155002907CC /* CherryNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B00215C1CED6155002907CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B00213D1CED6154002907CC /* CherryNetwork */;
+			targetProxy = 6B00215B1CED6155002907CC /* PBXContainerItemProxy */;
+		};
+		6B0021671CED6155002907CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B00213D1CED6154002907CC /* CherryNetwork */;
+			targetProxy = 6B0021661CED6155002907CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B00214A1CED6155002907CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B00214B1CED6155002907CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B0021521CED6155002907CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0021531CED6155002907CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B00216C1CED6155002907CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B00216D1CED6155002907CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B00216F1CED6155002907CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28288F3BC81F7A71B0DE6F1B /* Pods-CherryNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CherryNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jdd.CherryNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B0021701CED6155002907CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082C78B0E077EB2BC9532CA8 /* Pods-CherryNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CherryNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jdd.CherryNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B0021721CED6155002907CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CherryNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jdd.CherryNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherryNetwork.app/CherryNetwork";
+			};
+			name = Debug;
+		};
+		6B0021731CED6155002907CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CherryNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jdd.CherryNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherryNetwork.app/CherryNetwork";
+			};
+			name = Release;
+		};
+		6B0021751CED6155002907CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CherryNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jdd.CherryNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CherryNetwork;
+			};
+			name = Debug;
+		};
+		6B0021761CED6155002907CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CherryNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jdd.CherryNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CherryNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0021391CED6154002907CC /* Build configuration list for PBXProject "CherryNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B00216C1CED6155002907CC /* Debug */,
+				6B00216D1CED6155002907CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B00216E1CED6155002907CC /* Build configuration list for PBXNativeTarget "CherryNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B00216F1CED6155002907CC /* Debug */,
+				6B0021701CED6155002907CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0021711CED6155002907CC /* Build configuration list for PBXNativeTarget "CherryNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0021721CED6155002907CC /* Debug */,
+				6B0021731CED6155002907CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0021741CED6155002907CC /* Build configuration list for PBXNativeTarget "CherryNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0021751CED6155002907CC /* Debug */,
+				6B0021761CED6155002907CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B00214D1CED6155002907CC /* CherryNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B00214E1CED6155002907CC /* CherryNetwork.xcdatamodel */,
+			);
+			currentVersion = 6B00214E1CED6155002907CC /* CherryNetwork.xcdatamodel */;
+			path = CherryNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B0021361CED6154002907CC /* Project object */;
+}
